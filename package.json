@@ -1,5 +1,5 @@
 {
-  "homepage": "https://moraish.github.io/webDev101/week-13/frontend",
+  "homepage": "https://moraish.github.io/blog",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r webdev",
+    "deploy": "gh-pages -d dist -r https://github.com/moraish/blog.git",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
